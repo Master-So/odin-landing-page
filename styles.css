@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    padding: 4px 12px;
+    border-radius: 10%;
+    margin: 8px 0;
+}
+
+.header, .footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1f2937;   
+    margin: 0;
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header button {
+    border: dodgerblue;
+}
+
+.header_top {
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    gap: 24px;
+
+}
+
+.header_links {
+    display: flex;
+    color: #e5e7eb; font-size: 18px;
+    padding: 16px;
+    gap: 24px;
+    align-items: center;
+}
+
+.header_bottom {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+.header_text {
+   max-width: 50%; 
+   margin: 0;
+   padding: 16px;
+
+}
+
+.header_img {
+    margin: 0;
+    background-color: grey;
+    width: 420px;
+    text-align: center;
+}
+
+.center-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.holders {
+    display: flex;
+    font-size: 8px;
+    justify-content: center;
+    margin: 16px;
+}
+
+.holder {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 120px;
+    margin: 16px;
+    margin-bottom: 48px;
+}
+
+
+.box {
+    height: 100px;
+    border: 2px solid dodgerblue;
+    border-radius: 10px;
+}
+
+.holder div {
+    width: 95px;
+    margin: 1px;
+    color: gray;
+}
+
+.center-2 {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100r;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 48px;
+}
+
+.credit {
+    width: 100%;
+    text-align: right;
+    color: black;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 0;
+}
+
+.bottom {
+    margin: 32px auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    background-color: dodgerblue;
+    color: #f9faf8;
+    border-radius: 10px;
+    padding: 24px 48px;
+}
+
+.bottom > div {
+    margin: 24px;
+}
+
+.bottom button {
+    border: 1px solid #f9faf8;
+    background-color: dodgerblue;
+    color: #f9faf8;
+    padding: 8px 24px;
+
+}
+
+.footer {
+    text-align: center;
+    padding: 32px;
+}
